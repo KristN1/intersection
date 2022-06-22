@@ -7,5 +7,5 @@ Simple intersection traffic simulation.
 Run the help command for usage info
 
 ```
-$python main.py -h
+$ python main.py -h
 ```
