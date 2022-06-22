@@ -3,7 +3,7 @@ import time
 
 from classes.intersection import Intersection
 
-speed = 100
+speed = 500
 lightInterval = 8
 carSpawnInterval = [0, 5]
 

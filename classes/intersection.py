@@ -20,9 +20,9 @@ class Intersection():
 
     def status(self, criticalOnly=False):
         def _checkStatus():
-            for road in self.roads:
+            for index, road in enumerate(self.roads):
                 if len(road) > 20:
-                    print(f"Road {self.currentLight + 1} is full")
+                    print(f"Road {index + 1} is full")
                     return False
                     
             return True
@@ -38,9 +38,6 @@ class Intersection():
             print(f"Road 4: {len(self.roads[3])}")
 
             return _checkStatus()
-
-        return True
-
 
 
     def _carGenerator(self):
