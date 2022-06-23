@@ -4,8 +4,8 @@ Simple intersection traffic simulation.
 
 ## Usage
 
-Run the help command for usage info
+Modify the config variables at the top of `main.py (6-8)` and run `main.py`
 
 ```
-$ python main.py -h
+$ python main.py
 ```
